@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, rgb(138, 130, 187), rgb(183, 177, 219));
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+#main{
+  display: block;
+  align-items: center;
+}
+
+h3{
+  margin-top: 2em;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  display: block;
+  align-items: center;
+}
+
+img{
+  width: 20em;
+}
+
+#messagesHolder{
+    width: 100vw; 
+    height: 20vh; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.messages{
+list-style-type: none;
+}
+
+input{
+  height:3.8em;
+  width: 10em;
+  border:none;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+}
+
+button{
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color:rgb(195 165 219);
+  color:black;
+  height:4em;
+  width: 20em;
+  border:none;
+}
